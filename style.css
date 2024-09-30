@@ -150,6 +150,20 @@ h2 {
   margin-top: 2rem;
 }
 
+.icon-container {
+  display: flex;
+  gap: 20px;
+}
+.icon {
+  margin: 0 2px;
+  font-size: 1.3rem;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+.icon:hover {
+  color: #ccc;
+}
+
 @media screen and (max-width: 1080px) {
   .container {
     margin: 20px;
