@@ -164,6 +164,11 @@ h2 {
   color: #ccc;
 }
 
+.card-top a {
+  color: white;
+  list-style: none;
+}
+
 @media screen and (max-width: 1080px) {
   .container {
     margin: 20px;
