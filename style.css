@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  --font-color: rgb(175, 169, 158);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #02060e;
+
+  color: white;
+  line-height: 1.5rem;
+
+  margin-top: 30px;
+}
+
+.text-muted {
+  color: var(--font-color);
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.card-bg {
+  background-color: rgb(25, 33, 44);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  @media;
+}
+
+.section-hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-img {
+  width: 10rem;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+.home-description {
+  flex: 1 1 0%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+.home-description .name {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.home-description .about {
+  color: var(--font-color);
+  max-width: 28rem;
+}
+
+.home-description .location {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--font-color);
+}
+
+.home-description a {
+  text-decoration: none;
+  color: rgb(175, 169, 158);
+}
+
+.section-about h2 {
+  color: white;
+}
+
+.section-about p {
+  color: white;
+  font-size: rem;
+  color: rgb(175, 169, 158);
+  line-height: 20px;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.skill-btn {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.skill-btn > div {
+  background-color: rgba(249, 250, 251, 0.8);
+  color: rgb(17, 24, 39);
+
+  border-radius: 20px;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin: 0.5rem 0.3rem;
+  font-weight: 600;
+  padding: 0.3rem 0.9rem;
+  font-weight: 900;
+}
+
+.icon-section a:hover {
+  color: white;
+  transition: all 1s ease;
+}
+.section-about {
+  margin-top: 3rem;
+}
+
+.section-education {
+  margin-top: 3rem;
+}
+
+.section-project {
+  margin-top: 3rem;
+}
+
+.section-project .card-top {
+  font-weight: 900;
+}
+
+.tags {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 20px;
+
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 1080px) {
+  .container {
+    margin: 20px;
+  }
+}
